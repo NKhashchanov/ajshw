@@ -4,11 +4,11 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./dist",
+    "start": "http-server dist",
     "test": "jest --passWithNoTests",
     "build": "webpack --mode production",
     "babel": "babel src -d dist",
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
